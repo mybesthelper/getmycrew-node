@@ -1,0 +1,24 @@
+{
+  "name": "getmycrew-node",
+  "version": "1.0.0",
+  "description": "GetMyCrew API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mybesthelper/getmycrew-node.git"
+  },
+  "keywords": [
+    "mycrew",
+    "api",
+    "node"
+  ],
+  "author": "Martin Popielarz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mybesthelper/getmycrew-node/issues"
+  },
+  "homepage": "https://github.com/mybesthelper/getmycrew-node#readme"
+}
