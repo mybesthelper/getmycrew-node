@@ -23,6 +23,7 @@
   "homepage": "https://github.com/mybesthelper/getmycrew-node#readme",
   "dependencies": {
     "interpolate": "^0.1.0",
+    "node-fetch": "^1.3.2",
     "underscore": "^1.8.3"
   }
 }
