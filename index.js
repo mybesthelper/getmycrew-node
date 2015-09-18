@@ -13,15 +13,20 @@ getMyCrew.authenticate("marcin.popielarz@gmail.com", "marcin123", function() {
   //   console.log(data);
   // });
 
-  getMyCrew.create_tasks({
-    title: 'My New Cool Task',
-    time: new Date(),
-    location: 'V6J1G1',
-    details: 'Some notes about task',
-    urgency: true,
-    contact_ids: [1,2,3]
-  }, function(data) {
-    console.log("task created");
+  // getMyCrew.create_tasks({
+  //   title: 'My New Cool Task',
+  //   time: new Date(),
+  //   location: 'V6J1G1',
+  //   details: 'Some notes about task',
+  //   urgency: true,
+  //   contact_ids: [1,2,3]
+  // }, function(data) {
+  //   console.log("task created");
+  //   console.log(data);
+  // });
+
+  getMyCrew.show_task(32, function(data) {
+    console.log("task shown");
     console.log(data);
   });
 })
