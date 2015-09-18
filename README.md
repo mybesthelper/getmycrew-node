@@ -5,6 +5,8 @@
 
 ## Using API
 
+### requiring getmyrew-node lib in your project
+
 ```
 var GetMyCrew = require('./lib/getmycrew-node').GetMyCrew;
 
@@ -14,14 +16,37 @@ getMyCrew = new GetMyCrew({
   //endpoint_url: 'http://mbhx.ngrok.com/api/v2'
 });
 
-getMyCrew.authenticate("marcin.popielarz@gmail.com", "marcin123", function() {
+```
 
+### authentication and api calls
+
+```
+getMyCrew.authenticate("marcin.popielarz@gmail.com", "marcin123", function() {
+  //... your code goes here - you are authorized to perform api calls
+  // ex ..
+  
   getMyCrew.index_tasks(function(data) {
     console.log("task list");
     console.log(data);
   });
 
-  getMyCrew.create_tasks({
+})
+
+```
+
+### Task index
+
+```
+  getMyCrew.index_tasks(function(data) {
+    console.log("task list");
+    console.log(data);
+  });
+```
+
+### Task create
+
+```
+ getMyCrew.create_tasks({
     title: 'My New Cool Task',
     time: new Date(),
     location: 'V6J1G1',
@@ -32,7 +57,6 @@ getMyCrew.authenticate("marcin.popielarz@gmail.com", "marcin123", function() {
     console.log("task created");
     console.log(data);
   });
-})
-
-
+  
 ```
+
