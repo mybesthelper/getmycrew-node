@@ -1,5 +1,9 @@
 # getmycrew-node
 
+## Installation
+`npm --save install getmycrew-node`
+
+## Using API
 
 ```
 var GetMyCrew = require('getmycrew-node').GetMyCrew;
@@ -11,7 +15,7 @@ getMyCrew = new GetMyCrew({
 });
 
 getMyCrew.authenticate("marcin.popielarz@gmail.com", "marcin123", function() {
-  getMyCrew.tasks(function(data) {
+  getMyCrew.index_tasks(function(data) {
     console.log("task list");
     console.log(data);
   });
