@@ -2,7 +2,7 @@
 
 
 ```
-var GetMyCrew = require('./lib/getmycrew-node').GetMyCrew;
+var GetMyCrew = require('getmycrew-node').GetMyCrew;
 
 getMyCrew = new GetMyCrew({
   client_id: '573464783de8e53595f554919556f698f9e63e9ea30c08bc225f520109e66dc6',
