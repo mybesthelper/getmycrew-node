@@ -1,8 +1,7 @@
 # getmycrew-node
 
 
-# example
-
+```
 var GetMyCrew = require('./lib/getmycrew-node').GetMyCrew;
 
 getMyCrew = new GetMyCrew({
@@ -17,3 +16,4 @@ getMyCrew.authenticate("marcin.popielarz@gmail.com", "marcin123", function() {
     console.log(data);
   });
 });
+```
