@@ -1,6 +1,6 @@
 {
   "name": "getmycrew-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "GetMyCrew API",
   "main": "./lib/getmycrew-node.js",
   "scripts": {
