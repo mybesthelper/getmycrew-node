@@ -18,7 +18,7 @@ getMyCrew = new GetMyCrew({
 
 ```
 
-### authentication and api calls
+### Authentication and API calls
 
 ```
 getMyCrew.authenticate("marcin.popielarz@gmail.com", "marcin123", function() {
