@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/mybesthelper/getmycrew-node#readme",
   "dependencies": {
+    "interpolate": "^0.1.0",
     "underscore": "^1.8.3"
   }
 }
