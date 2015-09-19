@@ -57,7 +57,7 @@ getMyCrew.authenticate("marcin.popielarz@gmail.com", "marcin123").then(function(
   });
 ```
 
-## Task show
+### Task show
 
 ```
   getMyCrew.show_tasks(32).then(function(task) {
